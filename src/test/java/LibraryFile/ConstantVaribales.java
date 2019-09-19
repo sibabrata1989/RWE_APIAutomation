@@ -12,5 +12,6 @@ public interface ConstantVaribales {
 		//Common variables
 		public static final String STATUS = "status";
 		public static final String MESSAGE = "message";
+		public static final String SUCCESS = "success";
 		
 }

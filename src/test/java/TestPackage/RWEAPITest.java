@@ -65,8 +65,8 @@ public class RWEAPITest implements ConstantVaribales {
 
 			then().assertThat().
 					statusCode(STATUS_OK).and().contentType(ContentType.JSON).and().
-					body(STATUS, equalTo("success")).and().
-					body(MESSAGE,equalTo("success")).log().all();
+					body(STATUS, equalTo(SUCCESS)).and().
+					body(MESSAGE,equalTo(SUCCESS)).log().all();
 		}
 		catch(Exception e)
 		{
@@ -86,7 +86,7 @@ public class RWEAPITest implements ConstantVaribales {
 
 			then().assertThat().
 					statusCode(STATUS_OK).and().contentType(ContentType.JSON).and().
-					body(STATUS, equalTo("success")).log().all();
+					body(STATUS, equalTo(SUCCESS)).log().all();
 		}
 		catch(Exception e)
 		{
@@ -109,7 +109,7 @@ public class RWEAPITest implements ConstantVaribales {
 
 			then().assertThat().
 					statusCode(STATUS_OK).and().contentType(ContentType.JSON).and().
-					body(STATUS, equalTo("success")).
+					body(STATUS, equalTo(SUCCESS)).
 					body("title_status", equalTo("SUCCESS")).log().all();
 					
 		}
