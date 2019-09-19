@@ -12,7 +12,7 @@ import org.testng.annotations.*;
 import LibraryFile.*;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-public class RWEAPITest implements ConstantVaribales {
+public class RWE_APITest implements ConstantVaribales {
 	Properties prp;
 	String payload;
 
