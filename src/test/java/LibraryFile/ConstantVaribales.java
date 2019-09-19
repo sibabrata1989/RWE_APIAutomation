@@ -8,4 +8,9 @@ public interface ConstantVaribales {
 		public static final int STATUS_BADREQUEST = 400;
 		public static final int STATUS_INTERNALSERVERERROR = 500;
 		public static final int STATUS_UNAUTHORIZED = 403;
+		
+		//Common variables
+		public static final String STATUS = "status";
+		public static final String MESSAGE = "message";
+		
 }
