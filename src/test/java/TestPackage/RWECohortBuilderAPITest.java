@@ -24,6 +24,7 @@ public class RWECohortBuilderAPITest implements ConstantVaribales {
 	public void commonService() throws IOException
 	{
 		prp = ReusableMethodsClass.getPropertyFile();
+		//generate cookies after login from UI.
 		cookiesValue = GenerateCookies.generateCookiesAfterLogin().toString();
    		cookie = new Cookie.Builder(COOKIES_NAME, cookiesValue).setDomain(DOMAIN_NAME).build();
 		
