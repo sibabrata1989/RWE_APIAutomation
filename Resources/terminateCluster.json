@@ -1,0 +1,11 @@
+{"s3_backup_location":"",
+   "ClusterIP": "<CLUSTER_HOST>",
+   "kill_all_running_jobs" : "true",
+   "recipient": "vikas.sanap@zs.com",
+   "handshake_key": "<HANDSHAKE_KEY>",
+   "is_golden_backup":"true",
+   "backup_name":"bakup2_cluster having some data restored with CER",
+   "take_s3_backup":"true",
+   "custom_configurations": {"s3-dist-cp":{"--srcPattern": ".^((?!_\\$folder\\$).)"}},
+   "cross_environment_restore":"false"
+}

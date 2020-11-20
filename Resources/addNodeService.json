@@ -1,0 +1,10 @@
+{
+   "ClusterIP": "<CLUSTER_HOST>",
+   "InstanceType": "c5.xlarge",
+   "InstanceCount": 1,
+   "Email": "vikas.sanap@zs.com",
+   "handshake_key": "<HANDSHAKE_KEY>",
+   "kill_all_running_jobs" : "true",
+   "Market":"SPOT",
+   "BidPrice":"1"
+}

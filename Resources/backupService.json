@@ -1,0 +1,6 @@
+{
+   "ClusterIP": "<CLUSTER_HOST>",
+   "recipient":"vikas.sanap@zs.com",
+   "handshake_key": "<HANDSHAKE_KEY>",
+   "take_s3_backup":"false"
+}
